@@ -1,19 +1,6 @@
 # Capstone: Lutron Floor Plan
 
-A Miro-like multi-user application where users can upload floor plans (ceiling plans) and annotate it with other users in real-time using stamps / icons (representing sensors, shades, light fixtures, etc). 
-
-### **Team members:** 
-- Ivan Zhang
-- Zoe Sherman
-- Ayush Shah
-- Amelia Gankhuyag
-
-### **Lutron Sponsors:** 
-- Hannah Fabian
-- Wesley Breisch
-
-### **Professor:**
-- Professor Alan Jeffery
+A multi-collaborative application where users can upload floor plans (ceiling plans) and annotate it with other users in real-time using stamps / icons (representing sensors, shades, light fixtures, etc). 
 
 ### **Tech Stack:** 
 - Front-End: Next.js, React, TypeScript
@@ -22,13 +9,27 @@ A Miro-like multi-user application where users can upload floor plans (ceiling p
 - Libraries: Fabric.js, react-pdf
 
 ## Features
-- [X] The app must allow users to upload a new floorplan in the web app.
-- [X] The app must allow users to view a floorplan in the web app.
-- [X] The app must allow users to use drawing tools to annotate a floorplan with devices and controls to create a system layout.
-- [X] The app must allow for a multi-user experience wherein any updates made to the floorplan should instantly be visible on all users’ floorplans (i.e., the state of the floorplan is synchronized across all users currently looking at it).
-- [X] The app must allow users to export an annotated floorplan for use in other common non-Lutron design tools (e.g., CAD).
-- [X] The app must be unit & integration tested using modern web project best practices (e.g., Jest, Cypress, etc.)
-- [X] Nice to have: the app should be able to intake an existing Lutron floorplan (Must be in PDF format)
+- Users can upload, delete, rename, and share floorplans
+- User can use drawing tools to annotate a floorplan with devices and controls to create a system layout.
+- Multi-user experience wherein any updates made to the floorplan is instantly visible on all users’ floorplans (i.e., the state of the floorplan is synchronized across all users currently looking at it).
+- User can export an annotated floorplan
+- Unit & integration tested using modern web project best practices (e.g., Jest, Cypress, etc.)
+
+## Website Look
+| Login View  |
+| ------------- |
+|![image](https://github.com/user-attachments/assets/26ab416e-4b70-46d5-85cb-85b5152f7a11)
+
+| Home View | 
+| ------------- |
+|![image](https://github.com/user-attachments/assets/bd2f2c92-2a22-4c95-aaa2-c402e1494bd1)
+
+| Editor View  | 
+| ------------- | 
+|![image](https://github.com/user-attachments/assets/4e29c106-a128-42df-8094-1ddca93f6802)
+
+
+
 
 ## How to run application
 - Run npm install to get dependencies
